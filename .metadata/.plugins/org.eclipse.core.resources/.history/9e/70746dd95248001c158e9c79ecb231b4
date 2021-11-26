@@ -1,0 +1,30 @@
+package com.pages;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+
+import com.base.TestBase;
+
+
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+
+public class LoginPage extends TestBase {
+
+public String validateTitle() {
+
+return driver.getTitle();
+}
+
+public void validateLogin() {
+//Capture the username and password
+//Perform the operation
+//Do not return anything
+}
+}

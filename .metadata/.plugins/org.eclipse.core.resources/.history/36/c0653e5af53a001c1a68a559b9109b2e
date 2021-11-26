@@ -1,0 +1,16 @@
+package datedemo;
+import java.time.LocalDateTime;
+import java.util.*;
+
+public class DateClass {
+
+	public static void main(String[] args) {
+		
+//		Date d=new Date();
+//		System.out.println(d.toString());
+	LocalDateTime t1=LocalDateTime.now();
+	System.out.println(t1);
+
+	}
+
+}
